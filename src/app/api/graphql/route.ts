@@ -67,3 +67,6 @@ const handler = startServerAndCreateNextHandler<NextRequest>(server, {
 export const POST = async (req: NextRequest) => {
     return handler(req);
 };
+export const GET = async (req: NextRequest) => {
+    return handler(req);
+};
