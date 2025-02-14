@@ -1,4 +1,5 @@
-import { AddressRequest, AddressResponse, transformResponse } from "@/app/api/graphql/route";
+import { AddressRequest, AddressResponse } from "@/app/api/graphql/route";
+import { transformResponse } from "@/lib/utils";
 
 describe('transformResponse', () => {
     const validLocality = {

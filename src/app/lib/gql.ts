@@ -1,4 +1,4 @@
-import { DocumentNode, gql } from "@apollo/client";
+import { gql } from "@apollo/client";
 
 export const VALIDATE_ADDRESS = gql`
   query ValidateAddress($postcode: String!, $suburb: String!, $state: String!) {
